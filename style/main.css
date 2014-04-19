@@ -308,49 +308,46 @@ hr {
   .tile .tile-inner {
     border-radius: 3px;
     background: #eee4da;
-    text-align: left;
+    color: white;
     font-size: 25px;
     font-weight: bold;
     z-index: 10; }
    @media screen and (max-width: 520px) {
       .tile .tile-inner {
         font-size: 15px; } }
+  .tile .tile-inner span{
+   position:absolute;
+   bottom: -40%;
+   left: 10%;
+   
+}
   .tile.tile-2 .tile-inner {
-    color: #f9f6f2;
     background: url('../tiles/2.png'); }
   .tile.tile-4 .tile-inner {
-    color: #f9f6f2;    
     background: url('../tiles/4.png');}
   .tile.tile-8 .tile-inner {
-    color: #f9f6f2;
     background: url('../tiles/8.png');
     }
   .tile.tile-16 .tile-inner {
-    color: #f9f6f2;
     background: url('../tiles/16.png');
      }
   .tile.tile-32 .tile-inner {
-    color: #f9f6f2;
     background: url('../tiles/32.png');
      }
   .tile.tile-64 .tile-inner {
-    color: #f9f6f2;
     background: url('../tiles/64.png');
      }
   .tile.tile-128 .tile-inner {
-    color: #f9f6f2;
     background: url('../tiles/128.png'); }
   .tile.tile-256 .tile-inner {
-    color: #f9f6f2;
+    color: black;
     background: url('../tiles/256.png'); }
   .tile.tile-512 .tile-inner {
-    color: #f9f6f2;
     background: url('../tiles/512.png'); }
   .tile.tile-1024 .tile-inner {
-    color: #f9f6f2;
     background: url('../tiles/1024.png'); }
   .tile.tile-2048 .tile-inner {
-    color: #f9f6f2;
+    color:black;
     background: url('../tiles/2048.png'); }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
